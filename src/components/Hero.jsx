@@ -1,5 +1,7 @@
 import React from 'react'
-import { profile } from '../data/profile'
+import { profile } from '../data/profile';
+import profileImg from "../assets/images/arul-profile.jpg";
+import resumePDF from "../assets/images/Arulkumaran_Rajaram.pdf";
 
 export default function Hero() {
   return (
@@ -7,7 +9,7 @@ export default function Hero() {
             <div className="container">
                 <div className="hero__content">
                     <div className="hero__avatar">
-                        <img src="/src/assets/images/arul-profile.jpg" alt="Arulkumaran R - Senior UI Developer"/>
+                        <img src={profileImg} alt="Arulkumaran R - Senior UI Developer"/>
                     </div>
                     <h1 className="hero__title">Arulkumaran R</h1>
                     <p className="hero__subtitle">
@@ -21,7 +23,7 @@ export default function Hero() {
                     </p>
                     
                     <div className="hero__actions">
-                        <a href="/src/assets/images/Arulkumaran_Rajaram.pdf" 
+                        <a href={resumePDF} 
                             download="Arulkumaran_Rajaram.pdf" 
                             className="btn btn--primary"
                             aria-label="Download resume PDF">
