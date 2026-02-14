@@ -1,7 +1,7 @@
 import React from 'react'
 import { profile } from '../data/profile';
-import profileImg from "../assets/images/arul-profile.jpg";
-import resumePDF from "../assets/images/Arulkumaran_Rajaram.pdf";
+import profileImg from "../../public/assets/images/arul-profile.jpg";
+import resumePDF from "../../public/assets/images/Arulkumaran_Rajaram.pdf";
 
 export default function Hero() {
   return (
